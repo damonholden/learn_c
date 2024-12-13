@@ -1,0 +1,4 @@
+
+# Hello World Notes
+
+On running `touch hello_world.c` and opening the file in vscode - the editor promted me to download the c/c++ extension pack (c/c++ language support, c/c++ themes, and cmake extensions), which I accepted. Following a tutorial at <https://www.w3schools.com/c/c_syntax.php> I was able to write my first hello-world C program. I got error underlining for the `#includes` directive. The context menu for the error prompted me to run the command `sudo sh -c 'apt update ; apt install -y build-essential'` in my terminal, which ammong other things, installs the GCC compiler. I ran `gcc hello_world.c` to compile the `hello_world.c` program, which spat out a `a.out` executable file in the same directory. Executing this file by entering `./a.out` in the terminal correctly prints `"hello world"` to the terminal.
